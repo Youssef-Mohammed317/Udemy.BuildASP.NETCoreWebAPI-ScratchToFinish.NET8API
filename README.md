@@ -1,4 +1,5 @@
-Build ASP.NET Core Web API – Scratch To Finish (.NET 8)
+
+Udemy Second Project - Build ASP.NET Core Web API – Scratch To Finish (.NET 8)
 
 A production-ready ASP.NET Core Web API built with .NET 8, following Onion Architecture principles.
 This project focuses on clean separation of concerns, authentication & authorization, advanced querying, and scalable backend design.

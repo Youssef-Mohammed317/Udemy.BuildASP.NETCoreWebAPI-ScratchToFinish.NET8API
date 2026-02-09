@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ZNWalk.Infa.Data.Migrations
+namespace NZWalks.Infa.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitalZNWalksAddTables : Migration

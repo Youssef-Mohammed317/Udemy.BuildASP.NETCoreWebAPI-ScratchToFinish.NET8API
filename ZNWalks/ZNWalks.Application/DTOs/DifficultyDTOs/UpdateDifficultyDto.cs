@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.DifficultyDTOs
+namespace NZWalks.Application.DTOs.DifficultyDTOs
 {
     public class UpdateDifficultyDto
     {

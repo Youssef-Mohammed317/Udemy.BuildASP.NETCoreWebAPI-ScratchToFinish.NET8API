@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Api/">
+    <Project Path="ZNWalks.Api/ZNWalks.Api.csproj" />
+  </Folder>
+  <Folder Name="/Application/">
+    <Project Path="ZNWalks.Application/NZWalks.Application.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Domain/NZWalks.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infra.Data/">
+    <Project Path="ZNWalk.Infa.Data/NZWalks.Infa.Data.csproj" />
+  </Folder>
+  <Folder Name="/Infra.Identity/">
+    <Project Path="ZNWalks.Infra.Identity/NZWalks.Infra.Identity.csproj" Id="9a8a6633-0718-4bb5-ad15-84ad31a2262f" />
+  </Folder>
+  <Folder Name="/Infra.IoC/">
+    <Project Path="ZNWalks.Infra.IoC/NZWalks.Infra.IoC.csproj" />
+  </Folder>
+  <Folder Name="/UI/">
+    <Project Path="ZNWalks.UI.MVC/NZWalks.UI.MVC.csproj" Id="a55ee0a1-863d-403c-bc8a-10e1c27bd7f3" />
+  </Folder>
+</Solution>

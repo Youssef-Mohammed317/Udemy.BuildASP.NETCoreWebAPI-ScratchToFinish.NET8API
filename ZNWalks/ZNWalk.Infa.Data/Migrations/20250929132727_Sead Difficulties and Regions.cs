@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace ZNWalk.Infa.Data.Migrations
+namespace NZWalks.Infa.Data.Migrations
 {
     /// <inheritdoc />
     public partial class SeadDifficultiesandRegions : Migration

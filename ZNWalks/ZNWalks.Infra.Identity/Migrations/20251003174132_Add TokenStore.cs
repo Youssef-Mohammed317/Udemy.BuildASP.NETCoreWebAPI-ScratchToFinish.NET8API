@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ZNWalks.Infra.Identity.Migrations
+namespace NZWalks.Infra.Identity.Migrations
 {
     /// <inheritdoc />
     public partial class AddTokenStore : Migration

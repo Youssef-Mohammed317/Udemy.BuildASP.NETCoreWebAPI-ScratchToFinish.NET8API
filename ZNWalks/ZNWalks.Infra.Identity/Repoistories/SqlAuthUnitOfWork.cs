@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Infra.Identity.Context;
-using ZNWalks.Infra.Identity.Domian.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Models;
+using NZWalks.Infra.Identity.Context;
+using NZWalks.Infra.Identity.Domian.Interfaces;
+using NZWalks.Infra.Identity.Domian.Models;
 
-namespace ZNWalks.Infra.Identity.Repoistories
+namespace NZWalks.Infra.Identity.Repoistories
 {
     public class SqlAuthUnitOfWork : IAuthUnitOfWork
     {

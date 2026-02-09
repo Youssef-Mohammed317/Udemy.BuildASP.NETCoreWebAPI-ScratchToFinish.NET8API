@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.AuthDTOs.RegisterDTOs
+namespace NZWalks.Application.DTOs.AuthDTOs.RegisterDTOs
 {
     public abstract class RegisterResponseDto
     {

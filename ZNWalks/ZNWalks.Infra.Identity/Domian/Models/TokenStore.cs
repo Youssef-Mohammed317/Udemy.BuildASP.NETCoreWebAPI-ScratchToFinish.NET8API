@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Infra.Identity.Domian.Models
+namespace NZWalks.Infra.Identity.Domian.Models
 {
     public class TokenStore
     {

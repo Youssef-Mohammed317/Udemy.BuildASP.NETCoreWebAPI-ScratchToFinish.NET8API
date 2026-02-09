@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Infra.Identity.Domian.Models;
+using NZWalks.Infra.Identity.Domian.Models;
 
-namespace ZNWalks.Application.Interfaces
+namespace NZWalks.Application.Interfaces
 {
     public interface ITokenService
     {

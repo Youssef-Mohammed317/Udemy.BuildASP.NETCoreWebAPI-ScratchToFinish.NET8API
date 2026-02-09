@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalk.Infa.Data.Seads;
-using ZNWalks.Domain.Models;
+using NZWalks.Infa.Data.Seads;
+using NZWalks.Domain.Models;
 
-namespace ZNWalk.Infa.Data.Contexts
+namespace NZWalks.Infa.Data.Contexts
 {
     public class ZNWalksDbContext : DbContext
     {

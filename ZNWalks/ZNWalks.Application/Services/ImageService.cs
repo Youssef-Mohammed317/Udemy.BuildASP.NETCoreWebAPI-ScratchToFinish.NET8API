@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.ImageDTOs;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Domain.Interfaces;
-using ZNWalks.Domain.Models;
-namespace ZNWalks.Application.Services
+using NZWalks.Application.DTOs.ImageDTOs;
+using NZWalks.Application.Interfaces;
+using NZWalks.Domain.Interfaces;
+using NZWalks.Domain.Models;
+namespace NZWalks.Application.Services
 {
     public class ImageService : IImageService
     {

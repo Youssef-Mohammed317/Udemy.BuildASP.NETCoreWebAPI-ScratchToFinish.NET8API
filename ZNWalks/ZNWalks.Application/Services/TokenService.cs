@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Models;
+using NZWalks.Application.Interfaces;
+using NZWalks.Infra.Identity.Domian.Interfaces;
+using NZWalks.Infra.Identity.Domian.Models;
 
-namespace ZNWalks.Application.Services
+namespace NZWalks.Application.Services
 {
     public class TokenService : ITokenService
     {

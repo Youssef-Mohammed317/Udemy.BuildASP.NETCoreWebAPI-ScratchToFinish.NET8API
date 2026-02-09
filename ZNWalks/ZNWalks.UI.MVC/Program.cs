@@ -1,6 +1,6 @@
-using ZNWalks.UI.MVC.CustomMiddleware;
+using NZWalks.UI.MVC.CustomMiddleware;
 
-namespace ZNWalks.UI.MVC
+namespace NZWalks.UI.MVC
 {
     public class Program
     {

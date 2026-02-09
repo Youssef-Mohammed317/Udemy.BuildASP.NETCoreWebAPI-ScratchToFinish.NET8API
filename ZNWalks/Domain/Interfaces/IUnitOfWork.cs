@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Domain.Interfaces
+namespace NZWalks.Domain.Interfaces
 {
     public interface IUnitOfWork
     {

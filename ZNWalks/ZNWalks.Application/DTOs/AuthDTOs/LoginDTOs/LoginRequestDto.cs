@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.AuthDTOs.LoginDTOs
+namespace NZWalks.Application.DTOs.AuthDTOs.LoginDTOs
 {
     public class LoginRequestDto
     {

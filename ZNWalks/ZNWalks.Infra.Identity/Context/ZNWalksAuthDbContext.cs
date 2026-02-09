@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Infra.Identity.Domian.Models;
-using ZNWalks.Infra.Identity.Seads;
+using NZWalks.Infra.Identity.Domian.Models;
+using NZWalks.Infra.Identity.Seads;
 
-namespace ZNWalks.Infra.Identity.Context
+namespace NZWalks.Infra.Identity.Context
 {
     public class ZNWalksAuthDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.Common.Filtering;
-using ZNWalks.Application.DTOs.Common.Paginate;
-using ZNWalks.Application.DTOs.Common.Sorting;
+using NZWalks.Application.DTOs.Common.Filtering;
+using NZWalks.Application.DTOs.Common.Paginate;
+using NZWalks.Application.DTOs.Common.Sorting;
 
-namespace ZNWalks.Application.DTOs.WalkDTOs
+namespace NZWalks.Application.DTOs.WalkDTOs
 {
     public class GetAllRequestDto
     {

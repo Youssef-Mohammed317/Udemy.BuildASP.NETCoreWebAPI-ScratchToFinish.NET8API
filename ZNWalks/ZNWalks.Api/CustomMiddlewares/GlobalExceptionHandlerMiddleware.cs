@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Api.CustomMiddlewares
+namespace NZWalks.Api.CustomMiddlewares
 {
     public class GlobalExceptionHandlerMiddleware
     {

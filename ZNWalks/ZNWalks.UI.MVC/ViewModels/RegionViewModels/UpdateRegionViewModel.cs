@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.UI.MVC.Models.RegionDTOs
+namespace NZWalks.UI.MVC.Models.RegionDTOs
 {
     public class UpdateRegionViewModel
     {

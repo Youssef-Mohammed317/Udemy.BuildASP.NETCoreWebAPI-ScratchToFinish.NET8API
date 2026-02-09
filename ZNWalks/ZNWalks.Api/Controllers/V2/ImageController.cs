@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using ZNWalks.Api.CustomActionFilters;
-using ZNWalks.Application.DTOs.ImageDTOs;
-using ZNWalks.Application.Interfaces;
+using NZWalks.Api.CustomActionFilters;
+using NZWalks.Application.DTOs.ImageDTOs;
+using NZWalks.Application.Interfaces;
 
-namespace ZNWalks.Api.Controllers.V2
+namespace NZWalks.Api.Controllers.V2
 {
     [ApiController]
     [ApiVersion("2.0")]

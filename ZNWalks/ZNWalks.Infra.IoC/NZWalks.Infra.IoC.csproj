@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ZNWalk.Infa.Data\ZNWalk.Infa.Data.csproj" />
-    <ProjectReference Include="..\ZNWalks.Application\ZNWalks.Application.csproj" />
-    <ProjectReference Include="..\ZNWalks.Infra.Identity\ZNWalks.Infra.Identity.csproj" />
+    <ProjectReference Include="..\ZNWalk.Infa.Data\NZWalks.Infa.Data.csproj" />
+    <ProjectReference Include="..\ZNWalks.Application\NZWalks.Application.csproj" />
+    <ProjectReference Include="..\ZNWalks.Infra.Identity\NZWalks.Infra.Identity.csproj" />
   </ItemGroup>
 
 </Project>

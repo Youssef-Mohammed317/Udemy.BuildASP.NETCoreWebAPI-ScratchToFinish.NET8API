@@ -5,12 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using ZNWalks.Api.CustomActionFilters;
-using ZNWalks.Application.DTOs.AuthDTOs.LoginDTOs;
-using ZNWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
-using ZNWalks.Application.Interfaces;
+using NZWalks.Api.CustomActionFilters;
+using NZWalks.Application.DTOs.AuthDTOs.LoginDTOs;
+using NZWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
+using NZWalks.Application.Interfaces;
 
-namespace ZNWalks.Api.Controllers.V1
+namespace NZWalks.Api.Controllers.V1
 {
     [ApiController]
     [ApiVersion("1.0")]

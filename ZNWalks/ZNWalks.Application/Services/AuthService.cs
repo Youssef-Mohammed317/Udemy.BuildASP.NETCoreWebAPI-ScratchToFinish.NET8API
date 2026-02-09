@@ -9,15 +9,15 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.AuthDTOs;
-using ZNWalks.Application.DTOs.AuthDTOs.LoginDTOs;
-using ZNWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Domain.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Models;
+using NZWalks.Application.DTOs.AuthDTOs;
+using NZWalks.Application.DTOs.AuthDTOs.LoginDTOs;
+using NZWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
+using NZWalks.Application.Interfaces;
+using NZWalks.Domain.Interfaces;
+using NZWalks.Infra.Identity.Domian.Interfaces;
+using NZWalks.Infra.Identity.Domian.Models;
 
-namespace ZNWalks.Application.Services
+namespace NZWalks.Application.Services
 {
     public class AuthService : IAuthService
     {

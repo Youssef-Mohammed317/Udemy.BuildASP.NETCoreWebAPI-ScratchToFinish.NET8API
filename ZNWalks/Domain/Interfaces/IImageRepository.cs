@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Domain.Models;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Domain.Interfaces
+namespace NZWalks.Domain.Interfaces
 {
     public interface IImageRepository
     {

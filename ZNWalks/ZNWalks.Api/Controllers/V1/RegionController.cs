@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using ZNWalks.Api.CustomActionFilters;
-using ZNWalks.Application.DTOs.RegionDTOs;
-using ZNWalks.Application.Interfaces;
+using NZWalks.Api.CustomActionFilters;
+using NZWalks.Application.DTOs.RegionDTOs;
+using NZWalks.Application.Interfaces;
 
-namespace ZNWalks.Api.Controllers.V1
+namespace NZWalks.Api.Controllers.V1
 {
     [ApiController]
     [ApiVersion("1.0")]

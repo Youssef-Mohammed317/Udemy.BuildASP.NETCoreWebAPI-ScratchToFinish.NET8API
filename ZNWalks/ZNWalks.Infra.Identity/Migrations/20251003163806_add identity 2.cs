@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace ZNWalks.Infra.Identity.Migrations
+namespace NZWalks.Infra.Identity.Migrations
 {
     /// <inheritdoc />
     public partial class addidentity : Migration

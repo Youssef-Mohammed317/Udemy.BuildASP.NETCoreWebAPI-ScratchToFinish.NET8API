@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.RegionDTOs
+namespace NZWalks.Application.DTOs.RegionDTOs
 {
     public class RegionDto
     {

@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace ZNWalks.UI.MVC.CustomMiddleware
+namespace NZWalks.UI.MVC.CustomMiddleware
 {
     public class GlobalExceptionHandlerMiddleware
     {

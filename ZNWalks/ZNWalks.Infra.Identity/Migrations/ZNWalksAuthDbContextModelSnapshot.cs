@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ZNWalks.Infra.Identity.Context;
+using NZWalks.Infra.Identity.Context;
 
 #nullable disable
 
-namespace ZNWalks.Infra.Identity.Migrations
+namespace NZWalks.Infra.Identity.Migrations
 {
     [DbContext(typeof(ZNWalksAuthDbContext))]
     partial class ZNWalksAuthDbContextModelSnapshot : ModelSnapshot
@@ -128,7 +128,7 @@ namespace ZNWalks.Infra.Identity.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ZNWalks.Infra.Identity.Domian.Models.ApplicationRole", b =>
+            modelBuilder.Entity("NZWalks.Infra.Identity.Domian.Models.ApplicationRole", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -171,7 +171,7 @@ namespace ZNWalks.Infra.Identity.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", b =>
+            modelBuilder.Entity("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -236,7 +236,7 @@ namespace ZNWalks.Infra.Identity.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("ZNWalks.Infra.Identity.Domian.Models.TokenStore", b =>
+            modelBuilder.Entity("NZWalks.Infra.Identity.Domian.Models.TokenStore", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -269,7 +269,7 @@ namespace ZNWalks.Infra.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationRole", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -278,7 +278,7 @@ namespace ZNWalks.Infra.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -287,7 +287,7 @@ namespace ZNWalks.Infra.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -296,13 +296,13 @@ namespace ZNWalks.Infra.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationRole", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -311,16 +311,16 @@ namespace ZNWalks.Infra.Identity.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ZNWalks.Infra.Identity.Domian.Models.TokenStore", b =>
+            modelBuilder.Entity("NZWalks.Infra.Identity.Domian.Models.TokenStore", b =>
                 {
-                    b.HasOne("ZNWalks.Infra.Identity.Domian.Models.ApplicationUser", "User")
+                    b.HasOne("NZWalks.Infra.Identity.Domian.Models.ApplicationUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

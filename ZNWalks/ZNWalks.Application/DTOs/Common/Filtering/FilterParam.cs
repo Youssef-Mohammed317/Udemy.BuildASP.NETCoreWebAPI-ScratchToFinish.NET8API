@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.Common.Filtering
+namespace NZWalks.Application.DTOs.Common.Filtering
 {
     public class FilterParam
     {

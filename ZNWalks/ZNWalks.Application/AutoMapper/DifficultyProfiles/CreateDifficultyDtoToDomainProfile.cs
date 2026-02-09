@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.DifficultyDTOs;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.DifficultyDTOs;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.AutoMapper.DifficultyProfiles
+namespace NZWalks.Application.AutoMapper.DifficultyProfiles
 {
     public class CreateDifficultyDtoToDomainProfile : Profile
     {

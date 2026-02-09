@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.ImageDTOs
+namespace NZWalks.Application.DTOs.ImageDTOs
 {
     public class UploadImageRequestDto
     {

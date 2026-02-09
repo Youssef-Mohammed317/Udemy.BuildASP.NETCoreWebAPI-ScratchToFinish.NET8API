@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.ImageDTOs;
+using NZWalks.Application.DTOs.ImageDTOs;
 
-namespace ZNWalks.Application.Interfaces
+namespace NZWalks.Application.Interfaces
 {
     public interface IImageService
     {

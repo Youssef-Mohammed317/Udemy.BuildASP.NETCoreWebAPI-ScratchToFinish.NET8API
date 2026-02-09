@@ -5,9 +5,9 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Domain.Models;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.DTOs.Common.Filtering
+namespace NZWalks.Application.DTOs.Common.Filtering
 {
     public static class FilterHelper
     {

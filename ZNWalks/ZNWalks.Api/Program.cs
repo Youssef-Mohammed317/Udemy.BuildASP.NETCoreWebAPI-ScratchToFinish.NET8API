@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using ZNWalk.Infa.Data.Contexts;
-using ZNWalks.Api.CustomMiddlewares;
-using ZNWalks.Infra.IoC;
+using NZWalks.Infa.Data.Contexts;
+using NZWalks.Api.CustomMiddlewares;
+using NZWalks.Infra.IoC;
 
-namespace ZNWalks.Api
+namespace NZWalks.Api
 {
     public class Program
     {

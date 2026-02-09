@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.DifficultyDTOs;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Domain.Interfaces;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.DifficultyDTOs;
+using NZWalks.Application.Interfaces;
+using NZWalks.Domain.Interfaces;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.Services
+namespace NZWalks.Application.Services
 {
     public class DifficultyService : IDifficultyService
     {

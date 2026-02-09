@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.WalkDTOs;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.WalkDTOs;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.AutoMapper.WalkRrofiles
+namespace NZWalks.Application.AutoMapper.WalkRrofiles
 {
     public class CreateWalkDtoToDomainProfile : Profile
     {

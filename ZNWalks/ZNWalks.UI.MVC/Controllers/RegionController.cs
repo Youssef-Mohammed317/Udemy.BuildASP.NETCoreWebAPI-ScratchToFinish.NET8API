@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using ZNWalks.UI.MVC.CustomFilters;
-using ZNWalks.UI.MVC.Models.RegionDTOs;
+using NZWalks.UI.MVC.CustomFilters;
+using NZWalks.UI.MVC.Models.RegionDTOs;
 
-namespace ZNWalks.UI.MVC.Controllers
+namespace NZWalks.UI.MVC.Controllers
 {
     [Route("[controller]/[action]")]
     public class RegionController : Controller

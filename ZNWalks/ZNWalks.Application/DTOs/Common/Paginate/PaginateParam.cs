@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.Common.Paginate
+namespace NZWalks.Application.DTOs.Common.Paginate
 {
     public class PaginateParam
     {

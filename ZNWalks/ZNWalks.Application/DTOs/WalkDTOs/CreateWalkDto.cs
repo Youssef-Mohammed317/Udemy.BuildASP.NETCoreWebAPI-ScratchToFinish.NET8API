@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Domain.Models;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.DTOs.WalkDTOs
+namespace NZWalks.Application.DTOs.WalkDTOs
 {
     public class CreateWalkDto
     {

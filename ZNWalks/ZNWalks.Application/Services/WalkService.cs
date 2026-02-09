@@ -6,15 +6,15 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.Common.Filtering;
-using ZNWalks.Application.DTOs.Common.Paginate;
-using ZNWalks.Application.DTOs.Common.Sorting;
-using ZNWalks.Application.DTOs.WalkDTOs;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Domain.Interfaces;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.Common.Filtering;
+using NZWalks.Application.DTOs.Common.Paginate;
+using NZWalks.Application.DTOs.Common.Sorting;
+using NZWalks.Application.DTOs.WalkDTOs;
+using NZWalks.Application.Interfaces;
+using NZWalks.Domain.Interfaces;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.Services
+namespace NZWalks.Application.Services
 {
     public class WalkService : IWalkService
     {

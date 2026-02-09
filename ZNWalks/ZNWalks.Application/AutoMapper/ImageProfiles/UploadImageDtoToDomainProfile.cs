@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.DifficultyDTOs;
-using ZNWalks.Application.DTOs.ImageDTOs;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.DifficultyDTOs;
+using NZWalks.Application.DTOs.ImageDTOs;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.AutoMapper.ImageProfiles
+namespace NZWalks.Application.AutoMapper.ImageProfiles
 {
     public class UploadImageDtoToDomainProfile : Profile
     {

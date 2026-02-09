@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Application.DTOs.Common.Sorting
+namespace NZWalks.Application.DTOs.Common.Sorting
 {
     public class SortParam
     {

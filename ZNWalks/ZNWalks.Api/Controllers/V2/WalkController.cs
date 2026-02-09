@@ -4,14 +4,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 using System.Threading.Tasks;
-using ZNWalks.Api.CustomActionFilters;
-using ZNWalks.Application.DTOs.Common.Filtering;
-using ZNWalks.Application.DTOs.Common.Paginate;
-using ZNWalks.Application.DTOs.Common.Sorting;
-using ZNWalks.Application.DTOs.WalkDTOs;
-using ZNWalks.Application.Interfaces;
+using NZWalks.Api.CustomActionFilters;
+using NZWalks.Application.DTOs.Common.Filtering;
+using NZWalks.Application.DTOs.Common.Paginate;
+using NZWalks.Application.DTOs.Common.Sorting;
+using NZWalks.Application.DTOs.WalkDTOs;
+using NZWalks.Application.Interfaces;
 
-namespace ZNWalks.Api.Controllers.V2
+namespace NZWalks.Api.Controllers.V2
 {
     [ApiController]
     [ApiVersion("2.0")]

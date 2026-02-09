@@ -1,7 +1,7 @@
-﻿using ZNWalks.Application.Interfaces;
-using ZNWalks.Application.Services;
+﻿using NZWalks.Application.Interfaces;
+using NZWalks.Application.Services;
 
-namespace ZNWalks.Api.CustomMiddlewares
+namespace NZWalks.Api.CustomMiddlewares
 {
     public class TokenValidationMiddleware
     {

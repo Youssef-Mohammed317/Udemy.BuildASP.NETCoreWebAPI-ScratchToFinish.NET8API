@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.RegionDTOs;
-using ZNWalks.Domain.Models;
+using NZWalks.Application.DTOs.RegionDTOs;
+using NZWalks.Domain.Models;
 
-namespace ZNWalks.Application.AutoMapper.RegionProfiles
+namespace NZWalks.Application.AutoMapper.RegionProfiles
 {
     public class CreateRegionDtoToDomainProfile : Profile
     {

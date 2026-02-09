@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ZNWalk.Infa.Data.Contexts;
+using NZWalks.Infa.Data.Contexts;
 
 #nullable disable
 
-namespace ZNWalk.Infa.Data.Migrations
+namespace NZWalks.Infa.Data.Migrations
 {
     [DbContext(typeof(ZNWalksDbContext))]
     [Migration("20251004215200_Add FileType To ImageTable")]
@@ -25,7 +25,7 @@ namespace ZNWalk.Infa.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ZNWalks.Domain.Models.Difficulty", b =>
+            modelBuilder.Entity("NZWalks.Domain.Models.Difficulty", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,7 +57,7 @@ namespace ZNWalk.Infa.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ZNWalks.Domain.Models.Image", b =>
+            modelBuilder.Entity("NZWalks.Domain.Models.Image", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -97,7 +97,7 @@ namespace ZNWalk.Infa.Data.Migrations
                     b.ToTable("Image");
                 });
 
-            modelBuilder.Entity("ZNWalks.Domain.Models.Region", b =>
+            modelBuilder.Entity("NZWalks.Domain.Models.Region", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -160,7 +160,7 @@ namespace ZNWalk.Infa.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ZNWalks.Domain.Models.Walk", b =>
+            modelBuilder.Entity("NZWalks.Domain.Models.Walk", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -195,15 +195,15 @@ namespace ZNWalk.Infa.Data.Migrations
                     b.ToTable("Walk");
                 });
 
-            modelBuilder.Entity("ZNWalks.Domain.Models.Walk", b =>
+            modelBuilder.Entity("NZWalks.Domain.Models.Walk", b =>
                 {
-                    b.HasOne("ZNWalks.Domain.Models.Difficulty", "Difficulty")
+                    b.HasOne("NZWalks.Domain.Models.Difficulty", "Difficulty")
                         .WithMany()
                         .HasForeignKey("DifficultyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ZNWalks.Domain.Models.Region", "Region")
+                    b.HasOne("NZWalks.Domain.Models.Region", "Region")
                         .WithMany()
                         .HasForeignKey("RegionId")
                         .OnDelete(DeleteBehavior.Cascade)

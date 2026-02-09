@@ -9,18 +9,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalk.Infa.Data.Contexts;
-using ZNWalk.Infa.Data.Repositories;
-using ZNWalks.Application.AutoMapper.RegionProfiles;
-using ZNWalks.Application.Interfaces;
-using ZNWalks.Application.Services;
-using ZNWalks.Domain.Interfaces;
-using ZNWalks.Infra.Identity.Context;
-using ZNWalks.Infra.Identity.Domian.Interfaces;
-using ZNWalks.Infra.Identity.Domian.Models;
-using ZNWalks.Infra.Identity.Repoistories;
+using NZWalks.Infa.Data.Contexts;
+using NZWalks.Infa.Data.Repositories;
+using NZWalks.Application.AutoMapper.RegionProfiles;
+using NZWalks.Application.Interfaces;
+using NZWalks.Application.Services;
+using NZWalks.Domain.Interfaces;
+using NZWalks.Infra.Identity.Context;
+using NZWalks.Infra.Identity.Domian.Interfaces;
+using NZWalks.Infra.Identity.Domian.Models;
+using NZWalks.Infra.Identity.Repoistories;
 
-namespace ZNWalks.Infra.IoC
+namespace NZWalks.Infra.IoC
 {
     public static class DependancyContainer
     {

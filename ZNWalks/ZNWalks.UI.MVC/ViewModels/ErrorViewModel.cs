@@ -1,4 +1,4 @@
-namespace ZNWalks.UI.MVC.Models
+namespace NZWalks.UI.MVC.Models
 {
     public class ErrorViewModel
     {

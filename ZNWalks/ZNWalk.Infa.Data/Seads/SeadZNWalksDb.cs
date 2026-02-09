@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Domain.Models;
+using NZWalks.Domain.Models;
 
-namespace ZNWalk.Infa.Data.Seads
+namespace NZWalks.Infa.Data.Seads
 {
     public static class SeadZNWalksDb
     {

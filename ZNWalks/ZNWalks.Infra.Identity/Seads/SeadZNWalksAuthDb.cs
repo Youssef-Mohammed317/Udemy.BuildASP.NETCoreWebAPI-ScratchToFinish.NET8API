@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Infra.Identity.Domian.Models;
+using NZWalks.Infra.Identity.Domian.Models;
 
-namespace ZNWalks.Infra.Identity.Seads
+namespace NZWalks.Infra.Identity.Seads
 {
     public static class SeadZNWalksAuthDb
     {

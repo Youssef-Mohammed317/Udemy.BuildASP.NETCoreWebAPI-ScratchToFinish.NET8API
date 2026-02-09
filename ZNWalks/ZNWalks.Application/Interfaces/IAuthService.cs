@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZNWalks.Application.DTOs.AuthDTOs.LoginDTOs;
-using ZNWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
+using NZWalks.Application.DTOs.AuthDTOs.LoginDTOs;
+using NZWalks.Application.DTOs.AuthDTOs.RegisterDTOs;
 
-namespace ZNWalks.Application.Interfaces
+namespace NZWalks.Application.Interfaces
 {
     public interface IAuthService
     {

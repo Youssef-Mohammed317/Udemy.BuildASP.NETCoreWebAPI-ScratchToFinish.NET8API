@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZNWalks.Infra.Identity.Domian.Interfaces
+namespace NZWalks.Infra.Identity.Domian.Interfaces
 {
     public interface IAuthUnitOfWork
     {

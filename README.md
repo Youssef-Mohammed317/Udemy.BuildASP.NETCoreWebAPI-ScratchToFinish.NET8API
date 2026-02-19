@@ -1,6 +1,5 @@
 # Udemy Second Project – Build ASP.NET Core Web API (Scratch To Finish) — .NET 8
 
-🌐 **Live Demo:** *(add your live link here)*  
 🎓 **Udemy Course:** https://www.udemy.com/course/build-rest-apis-with-aspnet-core-web-api-entity-framework/  
 📜 **Certificate:** https://drive.google.com/file/d/1NwiUUTDsaXxo0j1Y90J-ymNUaBb7sdz0/view?usp=drive_link  
 🎥 **Testing / Walkthrough Video:** https://drive.google.com/file/d/1VBeO3Ic19n0EZz4zRbXK75kIDVyQnsv9/view?usp=drive_link  

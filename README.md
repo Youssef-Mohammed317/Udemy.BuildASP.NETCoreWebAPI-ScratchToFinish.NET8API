@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Swagger Preview
+
+![Swagger Screenshot](./docs/swagger.png)
+
+---
+
 ## Overview
 
 A production-ready **ASP.NET Core Web API** built with **.NET 8**, following **Onion Architecture** principles.  
